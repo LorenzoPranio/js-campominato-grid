@@ -1,6 +1,10 @@
 //Recupero il pulsante dal dom
 
+const btn = document.getElementById('btn_start')
+
 //Recupero l'elemento della griglia
+
+const grid = document.getElementById('grid')
 
 //Assegno l'evento click al pulsante recuperato nel dom 
 
