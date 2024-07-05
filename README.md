@@ -21,3 +21,25 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 
 |SOLUZIONE|
+
+1.> Creo un pulsante di nome "Start"
+1.1.>Recupero il pulsante dal dom
+
+2.>Creo l'elemento che conterrà la mia griglia
+2.1.>Recupero l'elemento
+
+3.>Assegno l'evento click al pulsante recuperato nel dom 
+
+4.>Definisco la funzione che mi crea i quadrati nella griglia
+4.1.>Assegnazione della classe square all'elemento creato
+4.2.>restituisco il quadrato nella variabile current element
+
+5.>Eseguo un ciclo for per la grglia 10x10
+5.1.>Creo un singolo quadrato funzione createsquare
+5.2.>Aggiungo l'evento click al quadrato
+5.3.>Quando cliccata diventa azzurra e mostra il numero in console
+
+6.>Metto il numero progressivo al quadrato
+
+7.>Appendo il quadrato creato nella griglia
+ 
