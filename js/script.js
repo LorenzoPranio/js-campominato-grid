@@ -31,6 +31,12 @@ btn.addEventListener('click', function(){
 //Definisco la funzione che mi crea i quadrati nella griglia
 function create_square(){
 
+    let current_element = document.createElement('div');
+
+    //Assegnazione della classe square all'elemento creato
+
+    current_element.classList.add('square')
+
 
 }
 
