@@ -1,26 +1,31 @@
 //Recupero il pulsante dal dom
 
-const btn = document.getElementById('btn_start')
+const btn = document.getElementById('btn_start');
 
 //Recupero l'elemento della griglia
 
-const grid = document.getElementById('grid')
+const grid = document.getElementById('grid');
 
 //Assegno l'evento click al pulsante recuperato nel dom 
 
 btn.addEventListener('click', function(){
-
     //Eseguo un ciclo for per la grglia 10x10
-
+    for (let i = 0; i < 100; i++){
         //Creo un singolo quadrato funzione createsquare
-
+        let current_square = create_square();
         //Aggiungo l'evento click al quadrato
-
-        //Quando cliccata diventa azzurra e mostra il numero in console
-
+        current_square.addEventListener('click',function(){
+            //Quando cliccata diventa azzurra e mostra il numero in console
+            this.classList.toggle('clicked-lightblue')
+        })
     //Metto il numero progressivo al quadrato
 
+    current_square.innerText = i + 1;
+
     //Appendo il quadrato creato nella griglia
+
+    grid.append(current_square);
+    }
 })
 
 //Definisco la funzione che mi crea i quadrati nella griglia
