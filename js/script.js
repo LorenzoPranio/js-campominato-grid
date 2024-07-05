@@ -1,6 +1,6 @@
 //Recupero il pulsante dal dom
 
-const btn = document.getElementById('btn_start');
+const btn = document.getElementById('btn-start');
 
 //Recupero l'elemento della griglia
 
@@ -29,10 +29,11 @@ btn.addEventListener('click', function(){
 })
 
 //Definisco la funzione che mi crea i quadrati nella griglia
+function create_square(){
 
-    //Assegnazione della classe square all'elemento creato
 
-    //restituisco il quadrato nella variabile current element
+}
+
 
 
 
