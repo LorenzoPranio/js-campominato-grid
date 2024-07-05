@@ -7,13 +7,25 @@
 header{
     padding: 20px 10px;
     margin-bottom: 50px;
+    background-color: rgb(95, 63, 126);
 }
 
 #btn-start{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 50px;
     padding: 5px 30px;
     font-size: 25px;
+    background-color: white;
+    color: rgb(95, 63, 126);
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+}
+
+h2{
+    font-weight: bolder
 }
 
 #grid{
@@ -22,6 +34,7 @@ header{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    border: 5px solid black;
 }
 
 .square{
@@ -30,10 +43,11 @@ header{
     align-items: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 1px solid black;
+    border: 2px solid black;
     color: black;
+    font-size: 22px;
 }
 
 .clicked-lightblue{
-    background-color: rgb(127, 255, 212);
+    background-color: rgba(94, 63, 126, 0.6);
 }
