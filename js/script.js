@@ -16,6 +16,7 @@ btn.addEventListener('click', function(){
         //Aggiungo l'evento click al quadrato
         current_square.addEventListener('click',function(){
             //Quando cliccata diventa azzurra e mostra il numero in console
+            console.log(this.innerText);
             this.classList.toggle('clicked-lightblue')
         })
     //Metto il numero progressivo al quadrato
