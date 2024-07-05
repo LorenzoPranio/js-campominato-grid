@@ -9,6 +9,7 @@ const grid = document.getElementById('grid');
 //Assegno l'evento click al pulsante recuperato nel dom 
 
 btn.addEventListener('click', function(){
+    grid.innerHTML = "";
     //Eseguo un ciclo for per la grglia 10x10
     for (let i = 0; i < 100; i++){
         //Creo un singolo quadrato funzione createsquare
