@@ -37,6 +37,9 @@ function create_square(){
 
     current_element.classList.add('square')
 
+    //restituisco il quadrato nella variabile current element
+
+    return current_element;
 
 }
 
